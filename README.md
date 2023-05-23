@@ -21,7 +21,7 @@ Um site sobre animais domésticos, os conteúdos adquiridos foram gerados na Int
 
 O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
 
-A como organizar a estrutura da página, os desafios foram colocar os configurar os estilos de maneira certa 😅😅, mas com muita paciência deu certo, pesquisei e analisei atentamento onde estava errando.
+A como organizar a estrutura da página, os desafios foram colocar os configurar os estilos de maneira certa 😅😅, mas com muita paciência, verifiqui o código, pesquisei soluções para saber onde estava errando.
 
 
 ## Referência
