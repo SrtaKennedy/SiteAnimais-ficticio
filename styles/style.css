@@ -1,0 +1,236 @@
+:root {
+    --font01: 'Best', 'cursive';
+    --font02: 'Cute', sans-serif;
+    --font03: 'Bad';
+    --cor00:#B0562C;
+    --cor01:#634537;
+    --cor02:#E36F39;
+    --cor03:#E8A07F;
+    --cor04:#663219;
+    --cor05:#fccc73;
+}
+
+@font-face {
+    font-family: 'Best';
+    src: url(/fonts/BestValentina.otf) format('opentype');
+    src: url(/fonts/BestValentina.ttf) format('truetype');
+    font-weight: normal;
+
+    font-family: 'Cute';
+    src: url(/fonts/CutePeronal.otf) format('opentype');
+    src: url(/fonts/CutePeronal.ttf) format('truetype');
+    font-weight: normal;
+
+    font-family: 'Bad';
+    src: url(/fonts/BadRascal.otf) format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--cor03);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor03));
+    min-height: 75px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+header > h1 {
+    font-family: var(--font01);
+    font-size: 2.2em;
+    color: var(--cor05);
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.315);
+}
+
+nav {
+    background-color: var(--cor05);
+    padding: 20px;
+    margin: 20px 150px 20px 150px;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.192);
+}
+
+nav > a {
+    color: black;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px 0px 8px 0px;
+    transition-duration: 0.4s;
+}
+
+nav > a:hover {
+    background-color: var(--cor03);
+    color: var(--cor05);
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.315);
+}
+
+main {
+    background-color: rgb(233, 226, 201);
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    min-width: 300px;
+    max-width: 1200px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-radius: 10px 0px 10px 0px;
+}
+
+main h1 {
+    color: var(--cor04);
+    font-size: 1.9em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: linear-gradient(to right, #fccc73, transparent);
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.315);
+    padding: 10px;
+    font-family: var(--font02);
+    text-indent: 40px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-indent: 20px;
+    font-size: 1.5em;
+    line-height: 1.6em;
+}
+
+main strong {
+    color: var(--cor02);
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px 0px 7px 0px;
+    color: rgb(255, 255, 255);
+    background-color: var(--cor02);
+    padding: 2px 6px;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.315);
+}
+
+main a:hover {
+    text-decoration: underline;
+    background-color: var(--cor00);
+}
+
+main div.imagem {
+    overflow: auto;
+}
+
+main div.imagem .left-imagem {
+    float: left;
+    width: 40%;
+    padding-left: 40px;
+}
+
+main div.imagem .right-imagem {
+    float: right;
+    width: 40%;
+    padding-right: 40px;
+}
+
+/*
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    margin: auto;
+    max-width: 450px;
+} 
+*/
+aside {
+    background-color: var(--cor02);
+    padding: 15px;
+    border-radius: 10px 0px 10px 0px;
+    border-color: coral;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.295);
+}
+
+
+aside h3 {
+    background-image: linear-gradient(to right, var(--cor04), transparent);
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.315);
+    padding: 10px;
+    border-top-left-radius: 10px;
+}
+
+aside > p {
+    text-indent: 15px;
+    font-size: 1.5em;
+    font-family: var(--font01);
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+aside > dl {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    font-weight: normal;
+    padding: 5px 10px 10px 10px;
+    list-style-type: '\26AA\00A0\00A0';
+    list-style-position: inside;
+    columns: 1;
+}
+
+dd.extra {
+    font-family: var(--font02);
+    line-height: 1.2em;
+    padding-bottom: 15px;
+    text-align: justify;
+    text-indent: 0px;
+    font-size: 1.1em;
+}
+
+aside dl dt strong.subtilulolista {
+    font-size: 1.1em;
+    color: white;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.315);
+}
+
+footer {
+    background-color:var(--cor02);
+    font-weight: bold;
+    font-family: var(--font02);
+    color:var(--cor05);
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.315);
+}
+
+footer > a {
+    color: var(--cor03);
+    text-decoration: none;
+}
+
+
+footer > a:hover {
+    text-decoration: underline;
+    color: var(--cor05);
+}
+
+footer > a::after {
+    color: var(--cor05);
+    content: '\00A0\1F441';
+}
