@@ -1,18 +1,7 @@
 
 # Site Fictício 
 
-Um site sobre animais domésticos, os conteúdos adquiridos foram gerados na Inteligência Artificial.
-
-
-
-
-
-
-
-
-
-
-## Screenshots
+Um site sobre animais domésticos.
 
 ![App Screenshot](https://github.com/SrtaKennedy/SiteAnimais-ficticio/assets/90563215/5ab16a3e-b54c-4084-9def-21de1c87bc0f)
 
